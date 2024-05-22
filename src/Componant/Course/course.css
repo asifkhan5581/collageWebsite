@@ -1,0 +1,67 @@
+.cart {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+
+  border-radius: 8px;
+  padding: 30px;
+  height: 330px;
+  margin-top: 100px;
+}
+.cart:hover {
+  border: 1px solid rgb(1, 159, 159) !important;
+  box-shadow: 10px 11px 30px 1px rgb(209, 209, 209);
+}
+.cart-top img {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid rgb(1, 159, 159) !important;
+  border-radius: 20px;
+  box-shadow: 10px 11px 20px 1px rgb(221, 221, 221);
+}
+.cart-top {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.slider-container {
+  width: 100%;
+  background-color: rgb(240, 239, 239);
+  padding: 20px;
+}
+.cart-top h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: darkblue !important;
+  font-weight: 600;
+  padding: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* the slides */
+.slick-slide > div {
+  margin: 5px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
+.course-contant h1 {
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+.course-contant p {
+  font-size: 22px;
+}
+.btn {
+  background-color: darkblue !important;
+  color: white !important;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}

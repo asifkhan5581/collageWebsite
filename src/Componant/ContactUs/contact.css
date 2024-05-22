@@ -1,0 +1,81 @@
+.contact {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.contact-col {
+  flex-basis: 48%;
+  color: #676767;
+}
+.contact-col h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: darkblue;
+}
+.contact-col h1 i {
+  font-size: 20px;
+  color: white;
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+}
+.contact-col ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+.contact-col ul li i {
+  padding: 10px;
+  font-size: 30px;
+  color: darkblue;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  background: #ebecfe;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+.btnn {
+  padding: 10px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.contact-col span {
+  display: block;
+  margin: 20px 0;
+}
+.contact-heading {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(1, 5, 51, 0.7) 50%,
+      rgba(1, 9, 65, 0.7) 50%
+    ),
+    url("../../images/slide3.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact-heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 3px 3px 5px red;
+  text-align: center;
+}

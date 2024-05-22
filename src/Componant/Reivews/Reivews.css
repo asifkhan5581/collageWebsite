@@ -1,0 +1,120 @@
+.reivews {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.8) 50%
+    ),
+    url("../../images/slide2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.reivews .reivews-client {
+  padding: 20px;
+}
+.reivews .reivews-client h3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.reivews .reivews-client h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.reivews .reivews-client .reivews-client-img {
+  width: 350px;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.reivews .reivews-client .reivews-client-img h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+.reivews .reivews-client .reivews-client-img img {
+  width: 90%;
+}
+.reivews .reivews-contant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.reivews .reivews-contant .client {
+  display: flex;
+}
+.reivews .reivews-contant .client .client-image {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 10px;
+}
+.reivews .reivews-contant .client .client-image img {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  padding: 5px;
+}
+.reivews .reivews-contant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+.reivews .reivews-contant p {
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+.client .client-name {
+  border-right: 4px solid white;
+  padding: 10px;
+}
+.client .client-name h1 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.client .client-name p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+.client .client-name span {
+  color: orange;
+  font-size: 20px;
+  margin: 3px;
+}
+.client .client-name span:last-child {
+  color: white;
+}
+.reivews .reivews-button button {
+  padding: 8px 20px;
+  border: none;
+  background-color: darkblue;
+  margin: 20px;
+}
+.reivews .reivews-button button span {
+  color: rgb(255, 115, 0);
+}

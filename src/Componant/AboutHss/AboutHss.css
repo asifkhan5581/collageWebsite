@@ -1,0 +1,29 @@
+.about-hss {
+  margin-top: 100px !important;
+}
+
+.about-content {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.about-image {
+  box-shadow: -18px 15px 0px black;
+  margin-top: 50px;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+.about-content h1 {
+  font-size: 28px;
+  color: darkblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.about-content p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}

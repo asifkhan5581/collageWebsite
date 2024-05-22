@@ -1,0 +1,40 @@
+.gallary-contant {
+  text-align: center;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.gallary-contant h4 {
+  font-size: 17px;
+  color: darkturquoise;
+  font-family: "Roboto", sans-serif;
+}
+.gallary-contant h1 {
+  font-size: 45px;
+  color: darkblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.gallery {
+  height: 420px;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 233, 233);
+}
+.gallery-desc {
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.slick-slide > div {
+  margin: 5px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
+/* .Institute-gallery {
+  width: 90%;
+} */

@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.offer {
+  width: 100%;
+  background-color: rgb(41, 34, 34);
+  padding: 30px 0px;
+}
+.offer-contant img {
+  width: 50px;
+  height: 50px;
+}
+.main-offer {
+  width: 100%;
+  display: flex;
+  margin-top: 0px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.offer-contant {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid gray; */
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 10px 11px 20px 1px rgb(51, 92, 92);
+}
+.offer-contant h1 {
+  font-size: 23px;
+  color: darkblue;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.offer-cont {
+  margin-top: 100px;
+}
+.offer-cont h1 {
+  padding: 5px 30px;
+  margin: 5px 30px;
+  font-weight: 600;
+  font-size: 45px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.offer-cont p {
+  width: 70%;
+  margin: 5px 30px;
+  padding: 5px 30px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .offer-cont p {
+    width: 100%;
+  }
+}
