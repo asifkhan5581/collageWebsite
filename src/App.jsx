@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Componant/Pages/Home";
 import About from "./Componant/Pages/About";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Contact from "./Componant/Pages/Contact";
 import Blog from "./Componant/Pages/Blog";
 import Verification from "./Componant/Pages/Verification";
@@ -10,7 +10,7 @@ import Database from "./Componant/Pages/Database";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/database" element={<Database />}></Route>
           <Route path="/*" element={<h1>Page Not Found</h1>}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
